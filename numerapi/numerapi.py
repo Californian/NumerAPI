@@ -13,7 +13,7 @@ class NumerAPI(object):
         api_url = "https://api.numer.ai"
         new_api_url = "https://api-hs.numer.ai"
         self._login_url = api_url + '/sessions'
-        self._auth_url = api_url + '/upload/auth'
+        self._auth_url = api_url + '/submission_authorizations'
         self._dataset_url = api_url + '/competitions/current/dataset'
         self._submissions_url = api_url + '/submissions'
         self._users_url = api_url + '/users'
